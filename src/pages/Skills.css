@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.skill-container{
+    margin-top: 180px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+
+.skill-content{
+    margin-left: 350px;
+}
+.tech-stack{
+    color: #e84949;
+}
+.tech-stack h1{
+    font-size: 100px;
+}
+.tech-stack p{
+    font-size: 50px;
+    font-weight: bold;
+}
+.tech-stack h1 span{
+    font-size: 50px;
+}
+.skill-p{
+    line-height: 50px;
+    font-weight: 420;
+    word-spacing: 5px;
+    font-size: large;
+}
+
+.skill-img{   
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 10px; 
+}
+
+.skill-img img{
+    height: 100px;
+    width: 100px;
+ }
+
+ .skill-last{
+    font-size: 75px;
+    font-weight: bolder;
+    color:  rgb(231,231,231);
+    margin-left: 1000px;
+ }
